@@ -1,6 +1,8 @@
 # images-flickr
 getImages-Flickr
 
+The program will download the images to the pwd, and will write the downloaded photo's credit url to the urllist.txt file, and if any fail to download the photo url will be written to failed.txt
+
 To run getImagesByDate.py
 
     $ python getImagesByDate.py 2 2015-03-20
