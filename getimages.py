@@ -41,7 +41,7 @@ while firstattempt < 3:
                 print 'Photo ID:', k.id
                 print 'license: ' , k.license,counter, k.datetaken
                 k._load_properties()
-                (k.owner)._load_properties()
+                #(k.owner)._load_properties()
                 print 'Title: ', k.title, k.dateposted
                 print 'user' , k.owner.realname,
                 print 'author', k.owner, k.owner.username
