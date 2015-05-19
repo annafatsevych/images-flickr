@@ -1,3 +1,16 @@
+"""
+
+getimages.py
+
+  By: Anna Fatsevych
+  Date: May 19, 2015
+
+  Program to download images using flickr API (flickr.py) for Python
+  Uses date and license parameters at the command line
+
+"""
+
+
 import flickr
 import urllib, urlparse
 import os
