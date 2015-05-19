@@ -7,6 +7,8 @@ getimages.py
 
   Program to download images using flickr API (flickr.py) for Python
   Uses date and license parameters at the command line
+  First argument is license(s): could be a list of multiples: 1,2,3 
+  Second arg is the date in "YYYY-MM-DD" format
 
 """
 
