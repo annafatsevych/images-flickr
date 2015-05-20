@@ -7,7 +7,7 @@ getimages.py
 
   Program to download images using flickr API (flickr.py) for Python
   Uses date and license parameters at the command line
-  First argument is license(s): could be a list of multiples: 1,2,3 
+  First argument is license(s): could be a list of multiples: 1,2,3
   Second arg is the date in "YYYY-MM-DD" format
 
 """
@@ -84,7 +84,7 @@ while firstattempt < 3:
               except KeyboardInterrupt:
                 raise
               except:
-                fail.write(urlcredit+'\n')
+                fail.write(k.id+'\n')
                 print '****************** FAILED TO GET URL!!!!'
                 attempts=4
           pageattempts=4
